@@ -1,5 +1,5 @@
 #-*- coding:utf-8 -*-
-
+#ゴールドバッハ予想
 def prime(value):
 	for num in range(2,value):
 		if value%num==0:
@@ -13,7 +13,7 @@ def search(list,tar):
 
 def main():
 	list=[]
-	tar=2014
+	tar=1234567890
 	for num in range(2,tar):
 		if prime(num)>0:
 			list.append(num)
