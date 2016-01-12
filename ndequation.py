@@ -14,7 +14,7 @@ def ans(con1,con2,inver_mat):
 	con_vec=numpy.matrix([[con1],[con2]])
 	return numpy.dot(inver_mat,con_vec)
 
-ans_mat=ans(17,-1,inver(2,5,5,-2))
+ans_mat=ans(5,12,inver(7,3,3,-2))
 
 for index,num in enumerate(ans_mat):
 	print "x{0}={1}".format(index,num)
